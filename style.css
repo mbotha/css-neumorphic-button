@@ -38,6 +38,6 @@ body {
     color:#00ffdc;
 }
 .shadow-dark {
-    border: 1px solid rgba(62, 62, 62, 0.42);
-    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.34), -6px -6px 26px 0 rgba(78, 78, 78, 0.98);
+    border: 1px solid rgb(54, 58, 59);
+    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.15), -6px -6px 26px 0 rgba(78, 78, 78, 0.45);
 }

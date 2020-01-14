@@ -1,7 +1,24 @@
+body{
+    background: #dfe0e9;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    flex: 1;
+}
+
 .btn-white {
     position: relative;
-    width: 42px;
-    height: 110px;
+    width:;
+    height: 30px;
     background: #d8dbe3;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;

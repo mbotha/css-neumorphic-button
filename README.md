@@ -5,18 +5,16 @@ It’s a raised element made from the exact same material as the background.
 
 
  
- #### Very minimal CSS only Material design buttons
+ #### Very minimal CSS
 ## HTML to display the button
 
 ```html
-<button type="button" class="button"><i class="fa fa-play" aria-hidden="true"></i></button>
+ <button type="button" class="button shadow-dark bg-dark"><i class="fa fa-play" aria-hidden="true"></i></button>
 ```
-## CSS to generate the waves effect
+## CSS to generate the neumorphism
 
 ```css
 .button {
-    background: #363a3b;
-    color: #ffb40c;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
@@ -24,11 +22,17 @@ It’s a raised element made from the exact same material as the background.
     letter-spacing: .5px;
     position: relative;
     padding: 30px;
-    border: 1px solid rgba(62, 62, 62, 0.42);
     box-sizing: border-box;
-    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.34), -6px -6px 26px 0 rgba(78, 78, 78, 0.98);
     border-radius: 12px;
     margin: 10px;
+}
+.bg-dark {
+    background: #363a3b;
+    color:#00ffdc;
+}
+.shadow-dark {
+    border: 1px solid rgba(62, 62, 62, 0.42);
+    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.34), -6px -6px 26px 0 rgba(78, 78, 78, 0.98);
 }
  ```
         

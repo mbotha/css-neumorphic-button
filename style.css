@@ -1,1 +1,10 @@
-
+.btn-white {
+    position: relative;
+    width: 42px;
+    height: 110px;
+    background: #d8dbe3;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 16px #9fa6b3, -6px -6px 16px #e8ebf3;
+    border-radius: 50px;
+}

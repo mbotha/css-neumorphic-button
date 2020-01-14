@@ -1,6 +1,5 @@
-# css-neumorphic-button ![alt text](https://img.shields.io/badge/CSS--blue "CSS") ![alt text]
+# css-neumorphic-button ![alt text] (https://img.shields.io/badge/CSS--blue "CSS") ![alt text](https://img.shields.io/badge/HTML5--blue "CSS")
 It’s a raised element made from the exact same material as the background.
-(https://img.shields.io/badge/HTML5--blue "CSS")
  See it in action https://mbotha.github.io/css-md-buttons
 
 

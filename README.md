@@ -9,37 +9,27 @@ It’s a raised element made from the exact same material as the background.
 ## HTML to display the button
 
 ```html
-<button type="button" class="bg-blue waves">button</button>
+<button type="button" class="button"><i class="fa fa-play" aria-hidden="true"></i></button>
 ```
 ## CSS to generate the waves effect
 
 ```css
-        .waves {
-            position: relative;
-            overflow: hidden;
-            transform: translate3d(0, 0, 0);
-        }
-        .waves:after {
-            content: "";
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-            background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
-            background-repeat: no-repeat;
-            background-position: 50%;
-            transform: scale(10, 10);
-            opacity: 0;
-            transition: transform .5s, opacity 1s;
-        }
-        .waves:active:after {
-            transform: scale(0, 0);
-            opacity: .3;
-            transition: 0s;
-        }
+.button {
+    background: #363a3b;
+    color: #ffb40c;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5px;
+    position: relative;
+    padding: 30px;
+    border: 1px solid rgba(62, 62, 62, 0.42);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 16px 0 rgba(0, 0, 0, 0.34), -6px -6px 26px 0 rgba(78, 78, 78, 0.98);
+    border-radius: 12px;
+    margin: 10px;
+}
  ```
         
 
